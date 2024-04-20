@@ -1,0 +1,17 @@
+\selectlanguage *{french}
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Présentation de l'entreprise}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Solutions proposées}{4}{0}{1}
+\beamer@sectionintoc {2}{Contexte}{6}{0}{2}
+\beamer@sectionintoc {3}{Problématique}{8}{0}{3}
+\beamer@subsectionintoc {3}{1}{Objectif}{8}{0}{3}
+\beamer@subsectionintoc {3}{2}{Données}{9}{0}{3}
+\beamer@sectionintoc {4}{État de l'art}{13}{0}{4}
+\beamer@subsectionintoc {4}{1}{Catégories d'algorithmes utilisés}{13}{0}{4}
+\beamer@subsectionintoc {4}{2}{Support Vector Machine}{14}{0}{4}
+\beamer@subsectionintoc {4}{3}{SVM: Déterminsation d'hyperplan}{15}{0}{4}
+\beamer@subsectionintoc {4}{4}{Arbre de décision}{16}{0}{4}
+\beamer@subsectionintoc {4}{5}{Forêst aléatoire}{19}{0}{4}
+\beamer@subsectionintoc {4}{6}{Fonctionnement du K-NN}{20}{0}{4}
+\beamer@sectionintoc {5}{Système réalisé}{23}{0}{5}
+\beamer@sectionintoc {6}{Conclusion}{24}{0}{6}

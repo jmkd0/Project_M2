@@ -1,0 +1,221 @@
+% L'ordre compte
+
+% Global layout
+% Têtes de chapitre sans numéro de page
+\makeatletter
+\renewcommand\chapter{\if@openright\cleardoublepage\else\clearpage\fi
+  \thispagestyle{empty}%
+  \global\@topnum\z@
+  \@afterindentfalse
+  \secdef\@chapter\@schapter}
+% Paragraphes en retrait (digressions)
+\newenvironment{digression}[0]{
+	\list{}{\listparindent 1.5em%
+                        \small
+                        \itemindent    \listparindent%
+                        \rightmargin   \leftmargin%
+                        \labelsep 0.2em%
+                        \parsep        \z@ \@plus\p@}%
+              \item\relax%
+	}%
+	{
+	\endlist%
+	}
+\makeatother
+
+\raggedbottom% for not too separated items
+
+% Layout
+
+\usepackage{fancyhdr}
+\setlength{\headheight}{30pt}% for fancyhdr
+\setlength{\parskip}{0.2\baselineskip}%
+\pagestyle{fancy}
+\usepackage{scrextend}% for footnotes
+\deffootnote{0em}{1.6em}{\thefootnotemark.\enskip}
+\usepackage{setspace}% line spacing
+
+\usepackage{subcaption}% for subfigure
+
+% Section pas en majuscules dans le header
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}{}}
+% Sections et figures sans numéro de chapitre
+\renewcommand{\thechapter}{\Roman{chapter}}
+\renewcommand{\thesubsection}{\thesection .\arabic{subsection}}
+\renewcommand{\thesubsubsection}{\thesubsection .\arabic{subsubsection}}
+
+
+\usepackage{caption}
+\captionsetup{figurewithin=none}  
+\captionsetup{tablewithin=none}
+
+% Paragraphes avec uniquement des lettres
+\renewcommand{\theparagraph}{\Alph{paragraph})}
+
+\usepackage{titling}% for author in footer
+\usepackage{emptypage}% for blank pages when clearing
+\usepackage{eso-pic}% pour la page de garde
+\usepackage{layout}% for visualizing the layout
+
+% Tables, figures and the like
+
+\usepackage{multirow}% row fusion
+\usepackage{array}% for accessing columns
+\usepackage{longtable}% for table on many pages
+\usepackage{float}
+\usepackage{tabularx, booktabs}
+\usepackage{colortbl}% for cellcolor
+\usepackage{longtable}% for table on many pages
+\usepackage{hhline}% for double horizontal lines
+\usepackage{diagbox}% for cutting a cell
+\usepackage[shortlabels]{enumitem}
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\usepackage{placeins}% for blocking figures
+\usepackage{graphicx}% appelé par
+
+% Special parts
+\usepackage[ruled, 	linesnumbered,	noend]{algorithm2e} 
+\usepackage{xurl}
+
+\usepackage[toc,page]{appendix}
+\usepackage{listings}
+
+\usepackage{fontspec}
+
+\usepackage{mathtools, amssymb, amsthm}
+\DeclareMathOperator*{\argmax}{argmax} 
+\DeclareMathOperator*{\argmin}{arg\,min}
+\usepackage{xfrac}
+
+% Parties conditionnelles
+\usepackage{etoolbox} % pour toggle
+\newtoggle{alternance}
+\newtoggle{M1}
+
+\usepackage[nottoc]{tocbibind} % faire apparaître la biblio dans la table des matières
+
+\usepackage[xetex, unicode, colorlinks=true]{hyperref}
+
+% AFTER hyperref or wrong pdf size but BEFORE bidi
+\usepackage[xetex, a4paper]{geometry}
+% BEFORE bidi
+\usepackage[most]{tcolorbox}
+
+\usepackage[francais]{minitoc}% AFTER CAPTION AND HYPERREF
+\setcounter{parttocdepth}{1}
+\setcounter{minitocdepth}{2}
+\setcounter{secnumdepth}{5}
+
+% Sommaire de partie
+\usepackage{shorttoc}
+
+\usepackage{polyglossia}
+\setdefaultlanguage{french}
+\SetLanguageKeys{french}{indentfirst=false}
+\usepackage[french=guillemets]{csquotes}
+\usepackage{lmodern}
+
+% si on a du chinois, de l'arabe ou une fonte phonétique
+% arabe : décommenter les trois lignes suivantes
+%\setotherlanguage{arabic}
+%\newfontfamily\arabicfont[Script = Arabic]{Scheherazade}
+%\let\txar\textarabic% my macro
+% phonétique : décommenter la ligne suivante
+%\newfontfamily\ipa[Script = Latin]{CharisSIL}
+% chinois : décommenter les deux lignes suivantes
+%\usepackage{xeCJK}
+%\setCJKmainfont{WenQuanYi Zen Hei}
+
+% le positionnement est bizarre ; avant polyglossia ne marche pas ici
+\usepackage{perpage}% pour avoir les notes renumérotées à chaque page
+\MakePerPage{footnote}
+
+\usepackage[backend=biber, natbib, maxbibnames=20, citestyle=authoryear]{biblatex}
+\addbibresource{memoire.bib} 
+
+
+
+% enable scschape in boldface
+\makeatletter
+\let\@@scshape=\scshape
+\renewcommand{\scshape}{%
+  \ifnum\strcmp{\f@series}{bx}=\z@
+    \usefont{T1}{cmr}{bx}{sc}%
+  \else
+    \ifnum\strcmp{\f@shape}{it}=\z@
+      \fontshape{scsl}\selectfont
+    \else
+      \@@scshape
+    \fi
+  \fi}
+\makeatother
+
+% petits bouts de code (< ou = une ligne)
+\newcommand{\reducedstrut}{\vrule width 0pt height .9\ht\strutbox depth .7\dp\strutbox\relax}
+
+\newcommand{\smallcode}[1]{\begingroup\setlength{\fboxsep}{0pt}\colorbox{white}{\begingroup\sffamily{\reducedstrut#1\/}\endgroup}\endgroup}
+
+% pour utiliser le code long dans les footnotes
+\usepackage{bigfoot}
+
+% pour un code plus long, utiliser code
+\usepackage{listings}
+ 
+\lstdefinestyle{LispStyle}{
+  language=Lisp,
+  keywordstyle=\sffamily,
+  commentstyle=\footnotesize
+}
+
+\lstdefinestyle{CStyle}{
+  language=C++,
+  keywordstyle=\color{blue},
+}
+  
+\newtcblisting{code}{%
+colback=white,
+boxrule=-1pt,
+listing only,
+top=-1pt,
+bottom=-2pt,
+left=-1pt,
+right=0pt,
+boxsep=0pt,
+box align=center,
+after={\par\smallskip\noindent\phantom{i}},
+listing options={
+      backgroundcolor=\color{white},
+      basicstyle=\sffamily\normalsize,
+      upquote=true,
+      showstringspaces=false,
+      showspaces=false,
+      tabsize=2,
+      xleftmargin=15pt,
+      breaklines=true,
+      breakatwhitespace=true,
+      columns=fullflexible,
+      commentstyle=\sffamily\itshape,
+      escapeinside={\%/*}{*/},
+    }
+}
+
+\makeatletter
+% tirets
+\lst@CCPutMacro
+    \lst@ProcessOther {"2D}{\lst@ttfamily{-{}}{-}}
+    \@empty\z@\@empty
+% guillemets
+\lst@CCPutMacro
+    \lst@ProcessOther {"22}{\lst@ifupquote \textquotedbl%
+      \else \char34\relax \fi}
+    \@empty\z@\@empty
+\makeatother
+
+\usepackage{import}% for includefrom
+
+\usepackage[titles]{tocloft}
+\cftsetindents{figure}{0em}{3.5em}
+\cftsetindents{table}{0em}{3.5em}
+
+

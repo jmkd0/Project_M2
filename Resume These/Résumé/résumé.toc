@@ -1,0 +1,43 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\selectlanguage *{french}
+\defcounter {refsection}{0}\relax 
+\contentsline {starchapter}{Introduction}{5}{chapter*.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{Première partie\hspace {1em}Problématique}{7}{part.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {xpart}{Problématique}{9}{part.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {I}Le contexte de résolution du problème}{11}{chapter.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {II}Le problème à résoudre}{13}{chapter.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{Deuxième partie\hspace {1em}État de l'art}{15}{part.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {xpart}{État de l'art}{17}{part.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {III}Techniques de prétraitement}{19}{chapter.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {IV}Techniques de traitement}{21}{chapter.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{Troisième partie\hspace {1em}Système proposé}{23}{part.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {xpart}{Système proposé}{25}{part.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {V}Implémentation du système}{27}{chapter.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {VI}Expérimentations et résultats}{29}{chapter.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{Quatrième partie\hspace {1em}Résultats obtenus}{31}{part.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {xpart}{Résultats obtenus}{33}{part.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {starchapter}{Résultats obtenus}{35}{chapter*.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {starchapter}{Comparaison avec d'autres}{37}{chapter*.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {starchapter}{Conclusion}{39}{chapter*.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Table des figures}{41}{chapter*.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Liste des tableaux}{43}{chapter*.7}%

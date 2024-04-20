@@ -1,0 +1,8 @@
+{\reset@font\ptcCfont\mtc@string\contentsline{chapter}{\noexpand \leavevmode \numberline {2}Le contexte de résolution du problème}{\reset@font\ptcCfont 23}{chapter.2}}
+{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.1}Le problème à résoudre}{\reset@font\ptcSfont 24}{section.2.1}}
+{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.2}Présentation des données}{\reset@font\ptcSfont 25}{section.2.2}}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.2.1}Dataset:}{\reset@font\ptcSSfont 25}{subsection.2.2.1}}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.2.2}Détail des colonnes de la dataset:}{\reset@font\ptcSSfont 26}{subsection.2.2.2}}
+{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.3}Méthodes de validation des modèles}{\reset@font\ptcSfont 27}{section.2.3}}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.1}MSE: Mean Squared Error ou RMSE: Root Mean Squared Error}{\reset@font\ptcSSfont 27}{subsection.2.3.1}}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.2}MAE: Mean Absolute Error}{\reset@font\ptcSSfont 27}{subsection.2.3.2}}

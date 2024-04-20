@@ -1,0 +1,70 @@
+\documentclass[a4paper,12pt,twoside]{book}
+\input{Preambule}
+% indiquer ici si alternance ; sinon c'est un stage
+%\toggletrue{alternance}
+% si ce n'est pas un M1 c'est un master
+%\toggletrue{M1}
+\input{PreambuleGarde}
+
+% Infos de la page de garde
+\author{Prénom \scshape{Nom}}
+\title{Nom de la thèse}
+\auteur{Prénom auteur \scshape {Nom auteur}}
+\encadrant{Gilles \scshape{Bernard}}
+\societe{{\scshape Schneider-Electric}\\
+	2621 1ère Avenue, 06510 Carros \\au sein d’Alten,\\société d'ingénierie et de conseil en technologies\\ basée à Valbonne (06560)}
+\date{17 Janvier 2022} % remplacer \today par la date du jour de soutenance quand elle est connue
+
+\begin{document}
+	
+	% En-têtes et pieds-de-page
+	\fancyhead{}
+	\fancyhead[RO,LE]{\thepage}
+	\fancyhead[RE]{\textit{\leftmark}}
+	\fancyhead[LO]{\textit{\rightmark}}
+	\renewcommand{\headrulewidth}{0.4pt}
+	
+	\fancyfoot{}
+	\fancyfoot[LE]{\theauthor}
+	\fancyfoot[RO]{2021}
+	\fancyfoot[LO]{\scshape Optimisation automatisée d'un régulateur PID}
+	\fancyfoot[RE]{Université Paris 8 Vincennes}
+	
+	% Calculer les sommaires
+	\dominitoc
+	\doparttoc
+	
+	\pagedegarde
+	\shorttableofcontents{Sommaire}{0}
+	
+	\includefrom{Introduction/}{Introduction}
+	
+	\part{Problématique}
+	\parttoc
+	\includefrom{Chapitre1/}{Chapitre1}
+	\includefrom{Chapitre2/}{Chapitre2}
+	
+	\part{État de l'art}
+	\parttoc
+	\includefrom{Chapitre3/}{Chapitre3}
+	\includefrom{Chapitre4/}{Chapitre4}
+	
+	\part{Système proposé}
+	\parttoc
+	\includefrom{Chapitre5/}{Chapitre5}
+	\includefrom{Chapitre6/}{Chapitre6}
+	
+	\part{Résultats obtenus}
+	\parttoc
+	\includefrom{Resultats/}{Resultats}
+	\includefrom{Comparaison/}{Comparaison}
+	
+	\includefrom{Conclusion/}{Conclusion}
+	
+	
+	\printbibliography
+	\listoffigures
+	\listoftables
+	\tableofcontents
+	
+\end{document}

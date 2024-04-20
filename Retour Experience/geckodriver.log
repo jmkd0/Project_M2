@@ -1,0 +1,87 @@
+1654281366296	geckodriver	INFO	Listening on 127.0.0.1:53060
+1654281366524	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "53061" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/8t/83qwqzx52cs5gmzbyklq6v_w0000gn/T/rust_mozprofileVTtLZ4"
+2022-06-03 20:36:09.470 plugin-container[2614:1791940] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-03 20:36:09.471 plugin-container[2614:1791940] nil host used in call to allowsAnyHTTPSCertificateForHost:
+WebDriver BiDi listening on ws://localhost:53061
+2022-06-03 20:36:09.579 plugin-container[2614:1791940] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-03 20:36:09.579 plugin-container[2614:1791940] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-03 20:36:09.579 plugin-container[2614:1791938] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-03 20:36:09.579 plugin-container[2614:1791938] nil host used in call to allowsAnyHTTPSCertificateForHost:
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://localhost:53061/devtools/browser/20f897f7-e0de-4142-853a-d74aa60abb26
+1654281407195	geckodriver	INFO	Listening on 127.0.0.1:53266
+1654281407419	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "53267" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/8t/83qwqzx52cs5gmzbyklq6v_w0000gn/T/rust_mozprofileHzORkE"
+1654281408019	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:53267
+2022-06-03 20:36:48.112 plugin-container[2650:1793002] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-03 20:36:48.112 plugin-container[2650:1793002] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-03 20:36:48.128 plugin-container[2650:1793002] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-03 20:36:48.128 plugin-container[2650:1793002] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-03 20:36:48.129 plugin-container[2650:1793056] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-03 20:36:48.129 plugin-container[2650:1793056] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-03 20:36:48.898 firefox-bin[2647:1792905] Warning: Expected min height of view: (<NSButton: 0x118d41400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-06-03 20:36:48.898 firefox-bin[2647:1792905] Warning: Expected min height of view: (<NSButton: 0x132c56800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-06-03 20:36:48.899 firefox-bin[2647:1792905] Warning: Expected min height of view: (<NSButton: 0x132c5ac00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-06-03 20:36:48.899 firefox-bin[2647:1792905] Warning: Expected min height of view: (<NSButton: 0x132c56400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-06-03 20:36:48.899 firefox-bin[2647:1792905] Warning: Expected min height of view: (<NSButton: 0x132c5bc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-06-03 20:36:48.900 firefox-bin[2647:1792905] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x132c5c000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-06-03 20:36:48.900 firefox-bin[2647:1792905] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x117553c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/8t/83qwqzx52cs5gmzbyklq6v_w0000gn/T/rust_mozprofileHzORkE/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1654281409877	Marionette	INFO	Listening on port 53294
+Read port: 53294
+DevTools listening on ws://localhost:53267/devtools/browser/15320fe3-4171-49a1-87a0-de81dc45965d
+1654281409901	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: NotFoundError: Could not move source file(/var/folders/8t/83qwqzx52cs5gmzbyklq6v_w0000gn/T/rust_mozprofileHzORkE/bookmarkbackups/bookmarks-2022-06-06_11_jZxFlz8CHjD11EzHFp7jAw==.jsonlz4) because it does not exist
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.

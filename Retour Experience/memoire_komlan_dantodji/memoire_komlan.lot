@@ -1,0 +1,13 @@
+\selectlanguage *{french}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Présentation de l'entreprise}{9}{chapter.1}%
+\contentsline {xpart}{Problématique}{21}{part.1}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Le contexte de résolution du problème}{23}{chapter.2}%
+\contentsline {xpart}{État de l'art}{31}{part.2}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{État de l'art des techniques de recommandation}{33}{chapter.3}%
+\contentsline {xpart}{Système réalisé}{45}{part.3}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Implémentation du système}{47}{chapter.4}%
+\contentsline {xpart}{Conclusion}{61}{part.4}%

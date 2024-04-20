@@ -1,0 +1,9 @@
+[0] Config.pm:312> INFO - This is Biber 2.15
+[0] Config.pm:315> INFO - Logfile is 'rÃ©sumÃ©.blg'
+[78] biber:330> INFO - === lun. janv.  3, 2022, 15:06:08
+[216] Biber.pm:415> INFO - Reading './résumé.bcf'
+[291] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
+[296] Utils.pm:395> WARN - The file './résumé.bcf' does not contain any citations!
+[303] bbl.pm:651> INFO - Writing 'rÃ©sumÃ©.bbl' with encoding 'UTF-8'
+[303] bbl.pm:754> INFO - Output to rÃ©sumÃ©.bbl
+[304] Biber.pm:128> INFO - WARNINGS: 1

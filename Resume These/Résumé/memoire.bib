@@ -1,0 +1,278 @@
+% Encoding: UTF-8
+
+@Article{Lawrence2020,
+  author      = {Nathan P. Lawrence and Gregory E. Stewart and Philip D. Loewen and Michael G. Forbes and Johan U. Backstrom and R. Bhushan Gopaluni},
+  title       = {Optimal PID and Antiwindup Control Design as a Reinforcement Learning Problem},
+  abstract    = {Deep reinforcement learning (DRL) has seen several successful applications to process control. Common methods rely on a deep neural network structure to model the controller or process. With increasingly complicated control structures, the closed-loop stability of such methods becomes less clear. In this work, we focus on the interpretability of DRL control methods. In particular, we view linear fixed-structure controllers as shallow neural networks embedded in the actor-critic framework. PID controllers guide our development due to their simplicity and acceptance in industrial practice. We then consider input saturation, leading to a simple nonlinear control structure. In order to effectively operate within the actuator limits we then incorporate a tuning parameter for anti-windup compensation. Finally, the simplicity of the controller allows for straightforward initialization. This makes our method inherently stabilizing, both during and after training, and amenable to known operational PID gains.},
+  date        = {2020-05-10},
+  doi         = {10.1016/j.ifacol.2020.12.129},
+  eprint      = {2005.04539v1},
+  eprintclass = {math.OC},
+  eprinttype  = {arXiv},
+  file        = {online:http\://arxiv.org/pdf/2005.04539v1:PDF},
+  keywords    = {math.OC, cs.LG, cs.SY, eess.SY},
+}
+
+@Misc{WikiAuto2021,
+  author    = {Wikipedia},
+  month     = {08},
+  year      = {2021},
+  timestamp = {2021-08-30},
+  url       = {https://fr.wikipedia.org/wiki/Automatisme},
+}
+
+@Misc{WikiPID2021,
+  author    = {Wikipedia},
+  year      = {2021},
+  timestamp = {2021-09-18},
+  url       = {https://en.wikipedia.org/wiki/PID_controller},
+}
+
+@Article{Lillicrap2015,
+  author      = {Timothy P. Lillicrap and Jonathan J. Hunt and Alexander Pritzel and Nicolas Heess and Tom Erez and Yuval Tassa and David Silver and Daan Wierstra},
+  title       = {Continuous control with deep reinforcement learning},
+  abstract    = {We adapt the ideas underlying the success of Deep Q-Learning to the continuous action domain. We present an actor-critic, model-free algorithm based on the deterministic policy gradient that can operate over continuous action spaces. Using the same learning algorithm, network architecture and hyper-parameters, our algorithm robustly solves more than 20 simulated physics tasks, including classic problems such as cartpole swing-up, dexterous manipulation, legged locomotion and car driving. Our algorithm is able to find policies whose performance is competitive with those found by a planning algorithm with full access to the dynamics of the domain and its derivatives. We further demonstrate that for many of the tasks the algorithm can learn policies end-to-end: directly from raw pixel inputs.},
+  date        = {2015-09-09},
+  eprint      = {1509.02971v6},
+  eprintclass = {cs.LG},
+  eprinttype  = {arXiv},
+  file        = {online:http\://arxiv.org/pdf/1509.02971v6:PDF},
+  keywords    = {cs.LG, stat.ML},
+}
+
+@InProceedings{Silver2014,
+  author       = {Silver, David and Lever, Guy and Heess, Nicolas and Degris, Thomas and Wierstra, Daan and Riedmiller, Martin},
+  title        = {Deterministic policy gradient algorithms},
+  booktitle    = {International conference on machine learning},
+  year         = {2014},
+  pages        = {387--395},
+  organization = {PMLR},
+}
+
+@Article{Spielberg2020,
+  author       = {Steven Spielberg and Aditya Tulsyan and Nathan P. Lawrence and Philip D Loewen and R. Bhushan Gopaluni},
+  title        = {Deep Reinforcement Learning for Process Control: A Primer for Beginners},
+  abstract     = {Advanced model-based controllers are well established in process industries. However, such controllers require regular maintenance to maintain acceptable performance. It is a common practice to monitor controller performance continuously and to initiate a remedial model re-identification procedure in the event of performance degradation. Such procedures are typically complicated and resource-intensive, and they often cause costly interruptions to normal operations. In this paper, we exploit recent developments in reinforcement learning and deep learning to develop a novel adaptive, model-free controller for general discrete-time processes. The DRL controller we propose is a data-based controller that learns the control policy in real time by merely interacting with the process. The effectiveness and benefits of the DRL controller are demonstrated through many simulations.},
+  date         = {2020-04-11},
+  doi          = {10.1002/aic.16689},
+  eprint       = {2004.05490v1},
+  eprintclass  = {eess.SY},
+  eprinttype   = {arXiv},
+  file         = {online:http\://arxiv.org/pdf/2004.05490v1:PDF},
+  journaltitle = {AICHE Journal 2019},
+  keywords     = {eess.SY, cs.SY},
+}
+
+@Article{Amini2018,
+  author      = {Alexander Amini and Guy Rosman and Sertac Karaman and Daniela Rus},
+  title       = {Variational End-to-End Navigation and Localization},
+  abstract    = {Deep learning has revolutionized the ability to learn "end-to-end" autonomous vehicle control directly from raw sensory data. While there have been recent extensions to handle forms of navigation instruction, these works are unable to capture the full distribution of possible actions that could be taken and to reason about localization of the robot within the environment. In this paper, we extend end-to-end driving networks with the ability to perform point-to-point navigation as well as probabilistic localization using only noisy GPS data. We define a novel variational network capable of learning from raw camera data of the environment as well as higher level roadmaps to predict (1) a full probability distribution over the possible control commands; and (2) a deterministic control command capable of navigating on the route specified within the map. Additionally, we formulate how our model can be used to localize the robot according to correspondences between the map and the observed visual road topology, inspired by the rough localization that human drivers can perform. We test our algorithms on real-world driving data that the vehicle has never driven through before, and integrate our point-to-point navigation algorithms onboard a full-scale autonomous vehicle for real-time performance. Our localization algorithm is also evaluated over a new set of roads and intersections to demonstrates rough pose localization even in situations without any GPS prior.},
+  date        = {2018-11-25},
+  eprint      = {1811.10119v2},
+  eprintclass = {cs.LG},
+  eprinttype  = {arXiv},
+  file        = {online:http\://arxiv.org/pdf/1811.10119v2:PDF},
+  keywords    = {cs.LG, stat.ML},
+}
+
+@Article{Chiang2018,
+  author      = {Hao-Tien Lewis Chiang and Aleksandra Faust and Marek Fiser and Anthony Francis},
+  title       = {Learning Navigation Behaviors End-to-End with AutoRL},
+  date        = {2018-09-26},
+  eprint      = {1809.10124v2},
+  eprintclass = {cs.RO},
+  eprinttype  = {arXiv},
+  file        = {online:http\://arxiv.org/pdf/1809.10124v2:PDF},
+  keywords    = {cs.RO, cs.AI, cs.LG},
+}
+
+@Article{Ha2020,
+  author      = {Sehoon Ha and Peng Xu and Zhenyu Tan and Sergey Levine and Jie Tan},
+  title       = {Learning to Walk in the Real World with Minimal Human Effort},
+  abstract    = {Reliable and stable locomotion has been one of the most fundamental challenges for legged robots. Deep reinforcement learning (deep RL) has emerged as a promising method for developing such control policies autonomously. In this paper, we develop a system for learning legged locomotion policies with deep RL in the real world with minimal human effort. The key difficulties for on-robot learning systems are automatic data collection and safety. We overcome these two challenges by developing a multi-task learning procedure and a safety-constrained RL framework. We tested our system on the task of learning to walk on three different terrains: flat ground, a soft mattress, and a doormat with crevices. Our system can automatically and efficiently learn locomotion skills on a Minitaur robot with little human intervention. The supplemental video can be found at: \url{https://youtu.be/cwyiq6dCgOc}.},
+  date        = {2020-02-20},
+  eprint      = {2002.08550v3},
+  eprintclass = {cs.RO},
+  eprinttype  = {arXiv},
+  file        = {online:http\://arxiv.org/pdf/2002.08550v3:PDF},
+  keywords    = {cs.RO, cs.AI, cs.LG},
+}
+
+@Article{Kalashnikov2018,
+  author      = {Dmitry Kalashnikov and Alex Irpan and Peter Pastor and Julian Ibarz and Alexander Herzog and Eric Jang and Deirdre Quillen and Ethan Holly and Mrinal Kalakrishnan and Vincent Vanhoucke and Sergey Levine},
+  title       = {QT-Opt: Scalable Deep Reinforcement Learning for Vision-Based Robotic Manipulation},
+  date        = {2018-06-27},
+  eprint      = {1806.10293v3},
+  eprintclass = {cs.LG},
+  eprinttype  = {arXiv},
+  file        = {online:http\://arxiv.org/pdf/1806.10293v3:PDF},
+  keywords    = {cs.LG, cs.AI, cs.CV, cs.RO, stat.ML},
+}
+
+@Misc{SpinningUp2018,
+  author = {SpinningUp},
+  year   = {2018},
+  url    = {https://spinningup.openai.com/en/latest/user/algorithms.html},
+}
+
+@Article{Prianto2020,
+  author         = {Prianto, Evan and Kim, MyeongSeop and Park, Jae-Han and Bae, Ji-Hun and Kim, Jung-Su},
+  title          = {Path Planning for Multi-Arm Manipulators Using Deep Reinforcement Learning: Soft Actor–Critic with Hindsight Experience Replay},
+  journal        = {Sensors},
+  year           = {2020},
+  volume         = {20},
+  number         = {20},
+  issn           = {1424-8220},
+  abstract       = {Since path planning for multi-arm manipulators is a complicated high-dimensional problem, effective and fast path generation is not easy for the arbitrarily given start and goal locations of the end effector. Especially, when it comes to deep reinforcement learning-based path planning, high-dimensionality makes it difficult for existing reinforcement learning-based methods to have efficient exploration which is crucial for successful training. The recently proposed soft actor&ndash;critic (SAC) is well known to have good exploration ability due to the use of the entropy term in the objective function. Motivated by this, in this paper, a SAC-based path planning algorithm is proposed. The hindsight experience replay (HER) is also employed for sample efficiency and configuration space augmentation is used in order to deal with complicated configuration space of the multi-arms. To show the effectiveness of the proposed algorithm, both simulation and experiment results are given. By comparing with existing results, it is demonstrated that the proposed method outperforms the existing results.},
+  article-number = {5911},
+  doi            = {10.3390/s20205911},
+  url            = {https://www.mdpi.com/1424-8220/20/20/5911},
+}
+
+@PhdThesis{Fruit2019,
+  author      = {Fruit, Ronan},
+  title       = {{Exploration-exploitation dilemma in Reinforcement Learning under various form of prior knowledge}},
+  school      = {{Universit{\'e} de Lille 1, Sciences et Technologies; CRIStAL UMR 9189}},
+  year        = {2019},
+  type        = {Theses},
+  month       = Nov,
+  file        = {main.pdf:https\://tel.archives-ouvertes.fr/tel-02388395v1/file/main.pdf:PDF},
+  hal_id      = {tel-02388395},
+  hal_version = {v1},
+  keywords    = {Reinforcement Learning ; Apprentissage par renforcement},
+  url         = {https://tel.archives-ouvertes.fr/tel-02388395},
+}
+
+@Article{Li2021,
+  author      = {Zhongyu Li and Xuxin Cheng and Xue Bin Peng and Pieter Abbeel and Sergey Levine and Glen Berseth and Koushil Sreenath},
+  title       = {Reinforcement Learning for Robust Parameterized Locomotion Control of Bipedal Robots},
+  abstract    = {Developing robust walking controllers for bipedal robots is a challenging endeavor. Traditional model-based locomotion controllers require simplifying assumptions and careful modelling; any small errors can result in unstable control. To address these challenges for bipedal locomotion, we present a model-free reinforcement learning framework for training robust locomotion policies in simulation, which can then be transferred to a real bipedal Cassie robot. To facilitate sim-to-real transfer, domain randomization is used to encourage the policies to learn behaviors that are robust across variations in system dynamics. The learned policies enable Cassie to perform a set of diverse and dynamic behaviors, while also being more robust than traditional controllers and prior learning-based methods that use residual control. We demonstrate this on versatile walking behaviors such as tracking a target walking velocity, walking height, and turning yaw.},
+  date        = {2021-03-26},
+  eprint      = {2103.14295v1},
+  eprintclass = {cs.RO},
+  eprinttype  = {arXiv},
+  file        = {online:http\://arxiv.org/pdf/2103.14295v1:PDF},
+  keywords    = {cs.RO, cs.AI, cs.LG, cs.SY, eess.SY},
+}
+
+@Misc{Keras2021,
+  author    = {Hemant Singh},
+  year      = {2020},
+  timestamp = {2020-09-21},
+  url       = {https://keras.io/examples/rl/ddpg_pendulum},
+}
+
+@Misc{Docker2021,
+  author = {Docker},
+  year   = {2021},
+  url    = {https://docs.docker.com/},
+}
+
+@Misc{Flask2021,
+  author = {Flask},
+  year   = {2021},
+  url    = {https://flask.palletsprojects.com/en/2.0.x/},
+}
+
+@Misc{Swagger2021,
+  author = {Swagger},
+  year   = {2021},
+  url    = {https://swagger.io/docs/specification/about/},
+}
+
+@Misc{SE2018,
+  author = {Bjarne Rimdal, Per Carlsen},
+  title  = {Structured Text IEC 61131-3},
+  year   = {2018},
+  url    = {https://download.schneider-electric.com/files?p_enDocType=White+Paper&p_File_Name=OnePage+-+Structured+Text+v1_4_1.pdf},
+}
+
+@InProceedings{Falconi2021,
+  author      = {Falconi, Franco and Capitaneanu, Stefan and Guillard, Herv{\'e} and Raissi, Tarek},
+  title       = {{A novel robust control strategy for industrial systems with time delay}},
+  booktitle   = {{5th International Conference on Control and Fault-Tolerant Systems}},
+  year        = {2021},
+  address     = {Saint-Rapha{\"e}l, France},
+  month       = Sep,
+  hal_id      = {hal-03286590},
+  hal_version = {v1},
+  url         = {https://hal.archives-ouvertes.fr/hal-03286590},
+}
+
+@Article{Kim2018,
+  author      = {Won-je Kim and Song-il Cha and Kyong-Jin Sok},
+  title       = {On the Formal Model for IEC 61499 Composite Function Blocks},
+  abstract    = {The applications for IEC 61499 that is standard architecture for developing the applications of distributed control and measurement in factory automation, have the connected structure of the graphical elements called BFB(basic function block), SIFB(service interface function block) and CFB(composite function block). The research on the composite function block has been regarded as important issues in implementing hierarchy, multi-functionality and simplicity of software. Nowadays many researchers have been investigated IEC61499 in the fields of the software modeling composed of basic function block and service interface function block, the transformation from IEC61131 to IEC61499 and syntactic extension of ECC of basic function block. However, work related to the mathematical modeling for IEC61499 composite function block using in designing software with hierarchical structure is still lacking. This paper presents the mathematical model for the structure and execution analysis of IEC 61499 composite function blocks by using notation of the set theory. Also a subaplication configuration algorithm is suggested for the subapplication corresponding to the composite function block. Then its effectiveness through the computation experiment of several distributed control applications is shown. The proposed model can be used effectively as a basis for analyzing a runtime environment of a software tool for designing and developing the applications.},
+  date        = {2018-05-23},
+  eprint      = {1805.08984v1},
+  eprintclass = {cs.DC},
+  eprinttype  = {arXiv},
+  file        = {online:http\://arxiv.org/pdf/1805.08984v1:PDF},
+  keywords    = {cs.DC, cs.SE},
+}
+
+@Article{Silver2016,
+	author  = {David Silver and Aja Huang and Christopher J. Maddison and Arthur Guez and Laurent Sifre and George van den Driessche and Julian Schrittwieser and Ioannis Antonoglou and Veda Panneershelvam and Marc Lanctot and Sander Dieleman and Dominik Grewe and John Nham and Nal Kalchbrenner and Ilya Sutskever and Timothy Lillicrap and Madeleine Leach and Koray Kavukcuoglu and Thore Graepel and Demis Hassabis},
+	title   = {Mastering the game of Go with deep neural networks and tree search},
+	journal = {Nature},
+	year    = {2016},
+	volume  = {529},
+	pages   = {484--503},
+	url     = {http://www.nature.com/nature/journal/v529/n7587/full/nature16961.html},
+}
+
+@Article{Andersen2017,
+  author        = {Per-Arne Andersen and Morten Goodwin and Ole-Christoffer Granmo},
+  title         = {Towards a Deep Reinforcement Learning Approach for Tower Line Wars},
+  __markedentry = {[mathias:]},
+  date          = {2017-12-17},
+  doi           = {10.1007/978-3-319-71078-5},
+  eprint        = {1712.06180v1},
+  eprintclass   = {cs.AI},
+  eprinttype    = {arXiv},
+  file          = {online:http\://arxiv.org/pdf/1712.06180v1:PDF},
+  keywords      = {cs.AI},
+}
+
+@Misc{WikiHttp2021,
+  author    = {Wikipedia},
+  year      = {2021},
+  timestamp = {2021-09-06},
+  url       = {https://fr.wikipedia.org/wiki/Hypertext_Transfer_Protocol},
+}
+
+@Article{Fertik1967,
+  author  = {H.A Fertik. and C.W Ross},
+  title   = {Direct digital control algorithm with anti-windup feature},
+  journal = {ISA transactions, 6(4), 317},
+  year    = {1967},
+}
+
+@Conference{Astrom1989,
+  author    = {K.J. Åström and L. Rundqwist},
+  title     = {Integrator windup and how to avoid it},
+  booktitle = {American Control Conference, 1693–1698. IEEE},
+  year      = {1989},
+}
+
+@Article{Mnih2013,
+  author        = {Volodymyr Mnih and Koray Kavukcuoglu and David Silver and Alex Graves and Ioannis Antonoglou and Daan Wierstra and Martin Riedmiller},
+  title         = {Playing Atari with Deep Reinforcement Learning},
+  __markedentry = {[mathias:6]},
+  abstract      = {We present the first deep learning model to successfully learn control policies directly from high-dimensional sensory input using reinforcement learning. The model is a convolutional neural network, trained with a variant of Q-learning, whose input is raw pixels and whose output is a value function estimating future rewards. We apply our method to seven Atari 2600 games from the Arcade Learning Environment, with no adjustment of the architecture or learning algorithm. We find that it outperforms all previous approaches on six of the games and surpasses a human expert on three of them.},
+  date          = {2013-12-19},
+  eprint        = {1312.5602v1},
+  eprintclass   = {cs.LG},
+  eprinttype    = {arXiv},
+  file          = {online:http\://arxiv.org/pdf/1312.5602v1:PDF},
+  keywords      = {cs.LG},
+}
+
+@Article{Watkins1992,
+  author  = {C.J.C.H Watkins and P. Dayan},
+  title   = {Q-learning},
+  journal = {Mach Learn 8, 279–292},
+  year    = {1992},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

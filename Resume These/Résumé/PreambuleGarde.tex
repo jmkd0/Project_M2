@@ -1,0 +1,70 @@
+\makeatletter
+\def\@auteur{auteur thèse}
+\newcommand{\auteur}[1]{\def\@auteur{#1}}
+
+\def\@encadrant{tuteur}
+\newcommand{\encadrant}[1]{\def\@encadrant{#1}}
+
+\def\@societe{société}
+\newcommand{\societe}[1]{\def\@societe{#1}}
+\makeatother
+
+\newcommand\BackgroundPic{%
+	\put(0,0){%
+		\parbox[b][\paperheight]{\paperwidth}{%
+			\includegraphics[height=0.32\paperheight]{pagedegarde/Bordure.png}%
+			\vfill
+		}
+	}
+}
+\newcommand\EtiquetteThese{%
+	\put(0,0){%
+		\parbox[t][\paperheight]{\paperwidth}{%
+			\hfill
+			\colorbox{blue}{		
+				\begin{minipage}[b]{3em}
+					\centering\Huge\textcolor{white}{M\\A\\S\\T\\E\\R\\}
+					\vspace{0.2cm}
+				\end{minipage}
+			}
+		}
+	}
+}
+
+\makeatletter
+\newcommand{\pagedegarde}{
+\newgeometry{top=2cm, bottom=2cm, left=1.6cm, right=1cm}
+\AddToShipoutPicture*{\BackgroundPic}
+\AddToShipoutPicture*{\EtiquetteThese}
+  \begin{titlepage}
+  \centering
+      \includegraphics[width=0.4\textwidth]{pagedegarde/paris8.png}
+      \hfill
+      \includegraphics[width=0.2\textwidth]{pagedegarde/logo}\\
+    \vspace{1cm}
+    {\Huge \vspace{0.5cm} Résumé de thèse}\\
+    
+    \vspace{1cm}
+    \normalsize
+    \textit{présenté par}\\
+    \vspace{0.5cm}
+    {\Large {\bfseries \@author}} \\
+    \vspace{0.4cm}
+    	le \@date \\
+    \vfill
+       {\LARGE \color[rgb]{0,0,1} \bfseries{\@title}} \\
+       Soutenue par : {\bfseries \@auteur}\\
+    \vfill
+        Enseignant : {\bfseries \@encadrant}\\
+        \bigskip
+%    \vfill
+  \end{titlepage}
+
+
+
+
+\restoregeometry  
+  
+  
+}
+\makeatother

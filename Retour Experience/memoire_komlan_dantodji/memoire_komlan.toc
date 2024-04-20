@@ -1,0 +1,59 @@
+\selectlanguage *{french}
+\contentsline {starchapter}{Remerciements}{5}{chapter*.2}%
+\contentsline {starchapter}{Introduction Générale}{7}{chapter*.3}%
+\contentsline {chapter}{\numberline {1}Présentation de l'entreprise}{9}{chapter.1}%
+\contentsline {section}{\numberline {1.1}L’histoire de JungleBike}{10}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Chiffres de JungleBike}{11}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Les Services proposés}{12}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Accès des produits en ligne:}{12}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Enregistrement du vélo}{12}{subsection.1.3.2}%
+\contentsline {section}{\numberline {1.4}Processus d’intégration de donnée et de mise en ligne des produits}{14}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Récupérer le catalogue des produits}{14}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}Nettoyage et enrichissement et standardisation:}{14}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.4.3}Mise en base:}{15}{subsection.1.4.3}%
+\contentsline {subsection}{\numberline {1.4.4}Mise en ligne}{16}{subsection.1.4.4}%
+\contentsline {section}{\numberline {1.5}JungleBike en interne}{17}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}L’ équipe d’accueil:}{17}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}Organisation de travail: le scrum Agile:}{17}{subsection.1.5.2}%
+\contentsline {subsection}{\numberline {1.5.3}Outils techniques:}{17}{subsection.1.5.3}%
+\contentsline {part}{I\hspace {1em}Problématique}{19}{part.1}%
+\contentsline {xpart}{Problématique}{21}{part.1}%
+\contentsline {chapter}{\numberline {2}Le contexte de résolution du problème}{23}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Le problème à résoudre}{24}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Présentation des données}{25}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Dataset:}{25}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Détail des colonnes de la dataset:}{26}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Méthodes de validation des modèles}{27}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}MSE: Mean Squared Error ou RMSE: Root Mean Squared Error}{27}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}MAE: Mean Absolute Error}{27}{subsection.2.3.2}%
+\contentsline {part}{II\hspace {1em}État de l'art}{29}{part.2}%
+\contentsline {xpart}{État de l'art}{31}{part.2}%
+\contentsline {chapter}{\numberline {3}État de l'art des techniques de recommandation}{33}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Recommandation aléatoire}{34}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Recommandation Personnalisée}{34}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Recommandation Objet (Content-Based filtering CB)}{34}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Recommandation Sociale (Collaborative Filtering CF – Context Aware)}{35}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Memory-based CF}{36}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}La Matrice de Factorisation}{36}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Neural Collaborative Filtering (NFC)}{37}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}LSTM: Long Short Term Memory}{39}{subsection.3.4.4}%
+\contentsline {part}{III\hspace {1em}Système réalisé}{43}{part.3}%
+\contentsline {xpart}{Système réalisé}{45}{part.3}%
+\contentsline {chapter}{\numberline {4}Implémentation du système}{47}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{48}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Analyse de données}{49}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Aperçu du jeu de donnée:}{49}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Statistiques sur la dataset:}{50}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Meilleurs produits et Clients par rapport aux votes:}{51}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}Application des différents modèles au jeu de données}{53}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Matrice de Factorisation:}{53}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Combinaison Matrice de Factorisation et Réseau de Neurone:}{53}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Combinaison Matrice de Factorisation et Multilayer perceptron:}{53}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}LSTM: Long Short Term Memory}{53}{subsection.4.3.4}%
+\contentsline {section}{\numberline {4.4}Tests et validation: Analyse des RMSE des différents modèles}{55}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Statistiques de performance des modèles}{55}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Evolution d'apprentissage des modèles en fonction du nombre d'époque}{55}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}Conclusion}{57}{section.4.5}%
+\contentsline {part}{IV\hspace {1em}Conclusion}{59}{part.4}%
+\contentsline {xpart}{Conclusion}{61}{part.4}%
+\contentsline {starchapter}{Conclusion}{63}{chapter*.4}%

@@ -1,0 +1,14 @@
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.1}Introduction}{\reset@font\mtcSfont 48}{section.4.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.2}Analyse de données}{\reset@font\mtcSfont 49}{section.4.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.2.1}Aperçu du jeu de donnée:}{\reset@font\mtcSSfont 49}{subsection.4.2.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.2.2}Statistiques sur la dataset:}{\reset@font\mtcSSfont 50}{subsection.4.2.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.2.3}Meilleurs produits et Clients par rapport aux votes:}{\reset@font\mtcSSfont 51}{subsection.4.2.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.3}Application des différents modèles au jeu de données}{\reset@font\mtcSfont 53}{section.4.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.3.1}Matrice de Factorisation:}{\reset@font\mtcSSfont 53}{subsection.4.3.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.3.2}Combinaison Matrice de Factorisation et Réseau de Neurone:}{\reset@font\mtcSSfont 53}{subsection.4.3.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.3.3}Combinaison Matrice de Factorisation et Multilayer perceptron:}{\reset@font\mtcSSfont 53}{subsection.4.3.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.3.4}LSTM: Long Short Term Memory}{\reset@font\mtcSSfont 53}{subsection.4.3.4}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.4}Tests et validation: Analyse des RMSE des différents modèles}{\reset@font\mtcSfont 55}{section.4.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.4.1}Statistiques de performance des modèles}{\reset@font\mtcSSfont 55}{subsection.4.4.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.4.2}Evolution d'apprentissage des modèles en fonction du nombre d'époque}{\reset@font\mtcSSfont 55}{subsection.4.4.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.5}Conclusion}{\reset@font\mtcSfont 57}{section.4.5}}

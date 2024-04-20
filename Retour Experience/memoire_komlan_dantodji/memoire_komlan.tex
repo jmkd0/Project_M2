@@ -1,0 +1,91 @@
+\documentclass[a4paper,12pt,twoside]{book}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+\usepackage{import}
+%\usepackage[backend=biber]{biblatex}
+%\usepackage[backend=biber, style=chem-acs]{biblatex}
+
+
+%\usepackage[backend=biber]{biblatex}
+%\usepackage[backend=biber, style=chem-acs]{biblatex}
+%\addbibresource{Bibliographie.bib} 
+%\bibliography{Bibliographie}
+
+
+\input{Preambule}
+\input{PreambuleGarde}
+
+% Infos de la page de garde
+\author{Komlan Jean-Marie \scshape{DANTODJI}}
+\title{La recommandation des articles}
+\mention{Informatique\\
+Parcours MIASHS Big data et fouille de données}
+\directeur{Rakia \scshape JAZIRI}
+\encadrant{Alice \scshape{BATTAREL}}
+\societe{\scshape{Jungle Bike}\\
+Urban Lab | RIVP Rue René Clair, 75018 Paris}
+\date{\today} % remplacer \today par la date du jour de soutenance quand elle est connue
+\ecole{Université Paris 8 Vincennes à Saint-Denis}
+
+\begin{document}
+
+% En-têtes et pieds-de-page
+\fancyhead{}
+\fancyhead[RO,LE]{\thepage}
+\fancyhead[RE]{\textit{\leftmark}}
+\fancyhead[LO]{\textit{\rightmark}}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\fancyfoot{}
+\fancyfoot[LE]{\theauthor}
+\fancyfoot[LO]{\scshape \thetitle}
+\fancyfoot[RE]{Université Paris 8 Vincennes}
+
+% Calculer les sommaires
+\dominitoc
+\doparttoc
+
+\pagedegarde
+\shorttableofcontents{Sommaire}{0}
+\import{./}{Remerciements.tex}
+%\import{./}{Resume.tex}
+\import{./}{Introduction.tex}
+\import{./}{Presentation_entreprise.tex}
+
+\part{Problématique}
+\parttoc
+\import{./}{Problematique.tex}
+
+\part{État de l'art}
+\parttoc
+\import{./}{Etat_de_l_art.tex}
+
+\part{Système réalisé}
+\parttoc
+\import{./}{Systeme_realise.tex}
+
+\part{Conclusion}
+\parttoc
+\import{./}{Conclusion.tex}
+
+\import{./}{Bibliographie.tex}
+\newpage
+~%\import{./}{Webographie.tex}
+
+\includefrom{References/}{References}
+%\bibliographystyle{plain}
+%\bibliography{Bibliographie}
+
+
+\listoffigures
+\listoftables
+\tableofcontents
+
+\includefrom{Annexes/}{Annexes}
+\end{document}

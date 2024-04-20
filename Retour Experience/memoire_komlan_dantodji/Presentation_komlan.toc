@@ -1,0 +1,24 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {french}{}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {1}{1}{Présentation de l'entreprise}{3}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {1}{2}{Solutions proposées}{4}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {2}{Problématique}{7}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {3}{Etat de l'art}{8}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {3}{1}{Pattern Regex}{8}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {3}{2}{Store Locator}{9}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {3}{3}{Alpha / Alpha City}{10}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {4}{Algorithme du Scoring}{11}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {5}{Apprentissage}{16}{0}{5}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {6}{Conclusion}{17}{0}{6}

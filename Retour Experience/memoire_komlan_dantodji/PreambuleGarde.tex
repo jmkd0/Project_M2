@@ -1,0 +1,95 @@
+\makeatletter
+\def\@ecole{université}
+\newcommand{\ecole}[1]{\def\@ecole{#1}}
+
+\def\@mention{Mention}
+\newcommand{\mention}[1]{
+  \def\@mention{#1}
+}
+
+\def\@directeur{encadrant universitaire}
+\newcommand{\directeur}[1]{
+  \def\@directeur{#1}
+}
+
+\def\@encadrant{tuteur de stage}
+\newcommand{\encadrant}[1]{
+  \def\@encadrant{#1}
+}
+
+\def\@societe{Société}
+\newcommand{\societe}[1]{
+  \def\@societe{#1}
+}
+\makeatother
+
+\newcommand\BackgroundPic{%
+	\put(0,0){%
+		\parbox[b][\paperheight]{\paperwidth}{%
+			\includegraphics[height=0.32\paperheight]{images/border_paris_8.png}%
+			\vfill
+		}
+	}
+}
+\newcommand\EtiquetteThese{%
+	\put(0,0){%
+		\parbox[t][\paperheight]{\paperwidth}{%
+			\hfill
+			\colorbox{blue}{		
+				\begin{minipage}[b]{3em}
+					\centering\Huge\textcolor{white}{M\\A\\S\\T\\E\\R\\}
+					\vspace{0.2cm}
+				\end{minipage}
+			}
+		}
+	}
+}
+
+\makeatletter
+\newcommand{\pagedegarde}{
+\newgeometry{top=2cm, bottom=2cm, left=1.6cm, right=1cm}
+\AddToShipoutPicture*{\BackgroundPic}
+\AddToShipoutPicture*{\EtiquetteThese}
+  \begin{titlepage}
+  \centering
+      \includegraphics[width=0.4\textwidth]{images/logo_paris_8.png}
+      \hfill
+      \includegraphics[width=0.2\textwidth]{images/logo_junglebike.png}\\
+    \vspace{1cm}
+    {\Huge \vspace{0.5cm} MÉMOIRE}\\
+    \vspace{0.8cm}
+    {\bfseries pour obtenir le grade de Master délivré par}\\
+    \vspace{1cm}
+    \huge\bfseries \@ecole\\
+    \vspace{0.5cm}
+    \Large{\bfseries Mention \textit{\@mention}}\\
+    \vspace{1cm}
+    \normalsize
+    \textit{présenté et soutenu publiquement par}\\
+    \vspace{0.5cm}
+    {\Large {\bfseries \@author}} \\
+    \vspace{0.4cm}
+    	le \@date \\
+    \vfill
+       {\LARGE \color[rgb]{0,0,1} \bfseries{\@title}} \\
+    \vfill
+        Encadrant universitaire : {\bfseries \@directeur}\\
+    \vfill
+        Tuteur de stage : {\bfseries \@encadrant}\\
+    \vfill
+        Stage effectué à : {\bfseries \@societe}\\
+    \vfill
+
+	\textbf{Université Paris 8\\
+	Laboratoire d'Informatique Avancée de Saint Denis}\\
+	EA n° 4383 Saint Denis, France
+  \end{titlepage}
+
+
+
+
+\restoregeometry  
+  
+  
+}
+\makeatother

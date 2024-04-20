@@ -1,0 +1,297 @@
+1672381963559	geckodriver	INFO	Listening on 127.0.0.1:49400
+1672381963722	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "49401" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/8t/83qwqzx52cs5gmzbyklq6v_w0000gn/T/rust_mozprofileWG6bFE"
+2022-12-30 07:32:47.640 plugin-container[76615:66681790] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-30 07:32:47.640 plugin-container[76615:66681790] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-30 07:32:47.745 plugin-container[76615:66681790] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-30 07:32:47.745 plugin-container[76615:66681790] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-30 07:32:47.745 plugin-container[76615:66681814] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-30 07:32:47.745 plugin-container[76615:66681814] nil host used in call to allowsAnyHTTPSCertificateForHost:
+WebDriver BiDi listening on ws://127.0.0.1:49401
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:49401/devtools/browser/abc51554-1bc9-4bff-b65a-2ae692e5e0b9
+1672381981714	geckodriver	INFO	Listening on 127.0.0.1:49514
+1672381982133	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "49515" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/8t/83qwqzx52cs5gmzbyklq6v_w0000gn/T/rust_mozprofileuv70ra"
+2022-12-30 07:33:02.460 plugin-container[76646:66682491] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-30 07:33:02.460 plugin-container[76646:66682491] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-30 07:33:02.462 plugin-container[76646:66682491] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-30 07:33:02.462 plugin-container[76646:66682491] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-30 07:33:02.462 plugin-container[76646:66682498] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-30 07:33:02.462 plugin-container[76646:66682498] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1672381982477	Marionette	INFO	Marionette enabled
+1672381982498	Marionette	INFO	Listening on port 49526
+Read port: 49526
+WebDriver BiDi listening on ws://127.0.0.1:49515
+1672381982668	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/8t/83qwqzx52cs5gmzbyklq6v_w0000gn/T/rust_mozprofileuv70ra/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49515/devtools/browser/8bb4bd1c-faad-4be7-8444-b7a38709d307
+1672382072096	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://snip.mathpix.com/static/js/main.772af1c8.js, line 2: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.mathpix.com."
+1672382501935	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://snip.mathpix.com/static/js/main.772af1c8.js, line 2: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.mathpix.com."
+1672382641138	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://snip.mathpix.com/static/js/main.772af1c8.js, line 2: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+1672383002294	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://snip.mathpix.com/static/js/main.772af1c8.js, line 2: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+1672383061275	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://snip.mathpix.com/static/js/main.772af1c8.js, line 2: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+1672383074122	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://snip.mathpix.com/static/js/main.772af1c8.js, line 2: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.mathpix.com."
+Handler function threw an exception: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannelInternal.remoteAddress]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/server/actors/network-monitor/network-observer.js :: _onResponseHeader :: line 1006"  data: no]
+Stack: _onResponseHeader@resource://devtools/server/actors/network-monitor/network-observer.js:1006:5
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:579:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:688:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1006, column: 0
+console.error: ({})
+Handler function threw an exception: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannelInternal.remoteAddress]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/server/actors/network-monitor/network-observer.js :: _onResponseHeader :: line 1006"  data: no]
+Stack: _onResponseHeader@resource://devtools/server/actors/network-monitor/network-observer.js:1006:5
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:579:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:688:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1006, column: 0
+console.error: ({})
+console.error: "stylesheets: fetch failed for https://snip.mathpix.com/static/css/main.8d210f79.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://snip.mathpix.com/static/css/main.8d210f79.css, using system principal instead."
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:311:10
+
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.error: "stylesheets: fetch failed for https://snip.mathpix.com/static/css/main.8d210f79.css, using system principal instead."
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:311:10
+
+console.error: "Unable to find target with innerWindowId:4294967339"
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+1672383508973	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1672383513623	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+console.error: "stylesheets: fetch failed for https://snip.mathpix.com/static/css/main.8d210f79.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://snip.mathpix.com/static/css/main.8d210f79.css, using system principal instead."
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:311:10
+
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.mathpix.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.mathpix.com."
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:311:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:311:10
+
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2351))
+console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
+console.error: (new TypeError("node is null", "resource://devtools/server/actors/page-style.js", 1003))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "node is null"
+console.error: (new TypeError("node is null", "resource://devtools/server/actors/page-style.js", 568))
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.windowGlobal4294967362/pagestyle89 (resource://devtools/server/actors/page-style.js:1003:5)", "resource://devtools/shared/protocol/Front.js", 383))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://snip.mathpix.com."
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:311:10
+
+console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
+console.error: (new TypeError("node is null", "resource://devtools/server/actors/page-style.js", 1003))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2351))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2351))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2351))
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.windowGlobal4294967363/pagestyle24 (resource://devtools/server/actors/page-style.js:1003:5)", "resource://devtools/shared/protocol/Front.js", 383))
+console.warn: ({})
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1672392399931	geckodriver	INFO	Listening on 127.0.0.1:60269
+1672392400298	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "60270" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/8t/83qwqzx52cs5gmzbyklq6v_w0000gn/T/rust_mozprofile1kwwV4"
+1672392400631	Marionette	INFO	Marionette enabled
+2022-12-30 10:26:40.682 plugin-container[78554:66781728] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-30 10:26:40.682 plugin-container[78554:66781728] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-30 10:26:40.684 plugin-container[78554:66781728] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-30 10:26:40.684 plugin-container[78554:66781728] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-30 10:26:40.685 plugin-container[78554:66781726] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-30 10:26:40.685 plugin-container[78554:66781726] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1672392400872	Marionette	INFO	Listening on port 60281
+Read port: 60281
+WebDriver BiDi listening on ws://127.0.0.1:60270
+1672392400961	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/8t/83qwqzx52cs5gmzbyklq6v_w0000gn/T/rust_mozprofile1kwwV4/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60270/devtools/browser/dd9a734a-5929-4869-89fe-a68f5b3f9e8a
+1672392407460	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://snip.mathpix.com/static/js/main.772af1c8.js, line 2: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.mathpix.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.mathpix.com."
+console.error: "Unable to find target with innerWindowId:4294967306"
+console.error: "Unable to find target with innerWindowId:4294967307"
+console.error: (new TypeError("topBrowsingContext is null", "resource://devtools/server/actors/watcher/browsing-context-helpers.sys.mjs", 387))
+Handler function threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/server/actors/network-monitor/utils/network-utils.js:98:1
+exports.createNetworkEvent@resource://devtools/server/actors/network-monitor/utils/network-utils.js:187:33
+_createNetworkEvent@resource://devtools/server/actors/network-monitor/network-observer.js:731:32
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:777:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:658:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 98, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/server/actors/network-monitor/utils/network-utils.js", 98))
+Handler function threw an exception: TypeError: httpActivity.owner is null
+Stack: _sendRequestBody@resource://devtools/server/actors/network-monitor/network-observer.js:1442:7
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:576:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:688:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1442, column: 7
+console.error: (new TypeError("httpActivity.owner is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 1442))
+Handler function threw an exception: TypeError: httpActivity.owner is null
+Stack: _onResponseHeader@resource://devtools/server/actors/network-monitor/network-observer.js:1039:5
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:579:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:688:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1039, column: 5
+console.error: (new TypeError("httpActivity.owner is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 1039))
+Handler function _httpStopRequest threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/server/actors/network-monitor/utils/network-utils.js:98:1
+exports.createNetworkEvent@resource://devtools/server/actors/network-monitor/utils/network-utils.js:187:33
+_createNetworkEvent@resource://devtools/server/actors/network-monitor/network-observer.js:731:32
+_httpStopRequest@resource://devtools/server/actors/network-monitor/network-observer.js:365:14
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 98, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/server/actors/network-monitor/utils/network-utils.js", 98))
+1672397816320	geckodriver	INFO	Listening on 127.0.0.1:49740
+1672397816713	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "49741" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/8t/83qwqzx52cs5gmzbyklq6v_w0000gn/T/rust_mozprofileHpzyQR"
+2022-12-30 11:56:57.215 plugin-container[79515:66828566] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-30 11:56:57.215 plugin-container[79515:66828566] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1672397817221	Marionette	INFO	Marionette enabled
+1672397817241	Marionette	INFO	Listening on port 49753
+2022-12-30 11:56:57.261 plugin-container[79515:66828566] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-30 11:56:57.261 plugin-container[79515:66828566] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-30 11:56:57.261 plugin-container[79515:66828568] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-30 11:56:57.261 plugin-container[79515:66828568] nil host used in call to allowsAnyHTTPSCertificateForHost:
+Read port: 49753
+WebDriver BiDi listening on ws://127.0.0.1:49741
+1672397817510	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/8t/83qwqzx52cs5gmzbyklq6v_w0000gn/T/rust_mozprofileHpzyQR/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49741/devtools/browser/54fa04d3-4b7c-472d-9030-4b2fcb25e10c
+1672397823988	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://snip.mathpix.com/static/js/main.772af1c8.js, line 2: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.mathpix.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.mathpix.com."
+1672397995737	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:311:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:311:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:311:10
+
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1672408375396	geckodriver	INFO	Listening on 127.0.0.1:50628
+1672408375812	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50629" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/8t/83qwqzx52cs5gmzbyklq6v_w0000gn/T/rust_mozprofilejI0nWu"
+1672408376178	Marionette	INFO	Marionette enabled
+1672408376208	Marionette	INFO	Listening on port 50640
+Read port: 50640
+2022-12-30 14:52:56.254 plugin-container[81243:66903753] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-30 14:52:56.255 plugin-container[81243:66903753] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-30 14:52:56.292 plugin-container[81243:66903753] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-30 14:52:56.292 plugin-container[81243:66903753] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-30 14:52:56.292 plugin-container[81243:66903798] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-30 14:52:56.292 plugin-container[81243:66903798] nil host used in call to allowsAnyHTTPSCertificateForHost:
+WebDriver BiDi listening on ws://127.0.0.1:50629
+1672408376366	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/8t/83qwqzx52cs5gmzbyklq6v_w0000gn/T/rust_mozprofilejI0nWu/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50629/devtools/browser/88396f08-8d7f-4689-8b6b-c0d1acb8de11
+1672408751804	geckodriver	INFO	Listening on 127.0.0.1:52220
+1672408752233	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "52221" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/8t/83qwqzx52cs5gmzbyklq6v_w0000gn/T/rust_mozprofilei0fNtf"
+1672408752561	Marionette	INFO	Marionette enabled
+2022-12-30 14:59:12.623 plugin-container[81341:66908091] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-30 14:59:12.623 plugin-container[81341:66908091] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-30 14:59:12.625 plugin-container[81341:66908091] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-30 14:59:12.625 plugin-container[81341:66908091] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-30 14:59:12.625 plugin-container[81341:66908098] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-30 14:59:12.625 plugin-container[81341:66908098] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1672408752814	Marionette	INFO	Listening on port 52232
+WebDriver BiDi listening on ws://127.0.0.1:52221
+Read port: 52232
+1672408752949	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/8t/83qwqzx52cs5gmzbyklq6v_w0000gn/T/rust_mozprofilei0fNtf/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52221/devtools/browser/535b293c-a607-44cb-a18a-fa45919c4261
+1672408754871	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://snip.mathpix.com/static/js/main.772af1c8.js, line 2: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.mathpix.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.mathpix.com."
+[2022-12-31T08:25:51Z ERROR viaduct::backend::ffi] Missing HTTP status
+[2022-12-31T08:25:51Z ERROR viaduct::backend::ffi] Missing HTTP status
+[2022-12-31T08:25:51Z ERROR viaduct::backend::ffi] Missing HTTP status
+1672475155265	Marionette	INFO	Stopped listening on port 49526
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1672475159389	Marionette	INFO	Stopped listening on port 60281
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1672475165652	Marionette	INFO	Stopped listening on port 49753
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1672475170194	Marionette	INFO	Stopped listening on port 50640
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1672475173950	Marionette	INFO	Stopped listening on port 52232
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
